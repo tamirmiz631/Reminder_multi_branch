@@ -1,7 +1,7 @@
 pipeline {
         agent any
         stages {
-               stage ( "Run code) {
+               stage ( "Run code"){
                        steps {
                              echo "The branch : mybranch"
                        }  
